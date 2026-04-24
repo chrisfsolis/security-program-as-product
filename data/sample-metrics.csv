@@ -1,0 +1,7 @@
+month,mttd_minutes,mttr_hours,critical_vuln_over_30d_pct,control_pass_rate_pct,control_coverage_pct,alerts_critical,alerts_high,alerts_medium,alerts_low,sla_compliance_pct,risk_reduction_index
+2026-01,52,39,28,82,58,110,420,980,1600,68,100
+2026-02,47,34,25,84,61,102,405,950,1580,72,96
+2026-03,42,30,22,86,66,95,390,920,1505,76,91
+2026-04,38,27,20,87,70,90,372,900,1470,79,86
+2026-05,34,25,18,88,73,84,355,875,1430,82,82
+2026-06,31,23,15,89,77,80,340,850,1400,85,77

@@ -1,0 +1,6 @@
+risk_id,risk,impact,likelihood,owner,mitigation,status,target_resolution
+R-001,Alert fatigue reduces analyst effectiveness,High,High,SecOps Manager,Alert tuning and queue throttling with weekly quality review,Mitigating,2026-07-31
+R-002,Incomplete asset inventory creates monitoring blind spots,Critical,Medium,Cloud Platform Lead,CMDB-cloud reconciliation and enforced asset tagging policy,Open,2026-08-15
+R-003,Delayed remediation of critical vulnerabilities,High,High,Engineering Director,Risk-based remediation queue and executive SLA escalation,Mitigating,2026-06-30
+R-004,Lack of ownership for control failures,High,Medium,GRC Lead,Named control owners and automated failure ticket assignment,Open,2026-09-15
+R-005,Inconsistent reporting reduces decision quality,Medium,Medium,Security TPM,Single KPI dictionary and automated executive scorecard,Mitigating,2026-06-15
