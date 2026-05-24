@@ -5,7 +5,7 @@ A lightweight internal product prototype for managing security program demand, r
 
 ## Live UI Prototype
 
-Live Demo: TODO - add Vercel deployment URL
+Live Demo: https://enterprise-mainframe-product-triage.vercel.app
 
 This is a static, recruiter-facing UI prototype using fictional demo data. It does not contain real customer data, proprietary information, or any internal company roadmap.
 
