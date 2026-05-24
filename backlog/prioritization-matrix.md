@@ -3,10 +3,21 @@
 ## Scoring Model
 **RICE Score = (Reach × Impact × Confidence) / Effort**
 
-- **Reach:** Estimated stakeholder/processes affected per quarter
+- **Reach:** Estimated stakeholders/processes affected per quarter
 - **Impact:** Relative risk reduction and operational improvement (0.5-3 scale)
 - **Confidence:** Data confidence in estimates (0-100%)
 - **Effort:** Story points
+
+## Risk and Compliance Modifiers
+RICE is the baseline prioritization method, then adjusted with practical modifiers when exposure or decision urgency is high:
+- **Risk Reduction Modifier:** Increases priority when an item materially reduces operational or security risk.
+- **Compliance/Audit Modifier:** Increases priority when an item addresses audit findings, evidence gaps, or control obligations.
+- **Adoption Modifier:** Increases priority when work improves real usage and cross-team behavior change.
+- **Executive Decision Urgency Modifier:** Increases priority when leadership decisions are blocked without the deliverable.
+
+**Adjusted Priority = RICE Score + Risk Modifier + Compliance Modifier + Adoption Modifier + Executive Urgency Modifier**
+
+> Some low-reach items may still be high priority if they reduce audit exposure, improve control ownership, or prevent operational disruption.
 
 ## Feature Scoring
 
