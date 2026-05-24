@@ -2,6 +2,35 @@
 
 A lightweight internal product prototype for managing security program demand, roadmap priorities, adoption status, risk/compliance tradeoffs, and executive decision support.
 
+
+## Live UI Prototype
+
+Live Demo: TODO - add Vercel deployment URL
+
+This is a static, recruiter-facing UI prototype using fictional demo data. It does not contain real customer data, proprietary information, or any internal company roadmap.
+
+## Deploying to Vercel
+
+Use these settings:
+
+- Project root: dashboard
+- Framework preset: Vite
+- Install command: npm install
+- Build command: npm run build
+- Output directory: dist
+
+### Local run
+```bash
+cd dashboard
+npm install
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
 ## Problem this prototype solves
 Security programs often receive demand from many stakeholders without a shared operating system for intake, prioritization, adoption follow-through, and executive decisions. This prototype demonstrates a practical model to run security work like a product.
 
@@ -25,19 +54,6 @@ Security programs often receive demand from many stakeholders without a shared o
 - Risk and decision log
 - Control/evidence traceability view
 - Client-side priority filter for backlog triage
-
-## Run locally
-```bash
-cd dashboard
-npm install
-npm run dev
-```
-
-## Build
-```bash
-cd dashboard
-npm run build
-```
 
 ## Repository structure
 - `dashboard/` React + Vite TypeScript UI prototype
